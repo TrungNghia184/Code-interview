@@ -1,0 +1,39 @@
+/* Solution 1:  */
+
+/* .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.box {
+    color: yellow;
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    text-decoration: underline;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* Solution 2:  */
+
+.container {
+    height: 100vh;
+}
+.box {
+    color: yellow;
+    background-color: orangered;
+    position: relative;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    height: 100px;
+    width: 100px;
+    text-decoration: underline;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
